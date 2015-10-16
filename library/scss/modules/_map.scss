@@ -1,0 +1,73 @@
+#module-map {
+	@extend %module-home;
+
+	color: $white;
+	background: url('../images/world_map.png') 50% 50% no-repeat $bil-blue;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+	#bil-global-statistics {
+		font-weight: bold;
+		line-height: 1;
+		text-shadow: 2px 2px rgba(0,0,0,.2);
+
+		@include breakpoint(xs) {
+			padding:3em;
+		}
+
+		@include breakpoint(md) {
+			padding:0;
+		}
+	}
+
+	#full-event-list {
+		ul {
+			margin-top: 10px;
+			list-style: none;
+			color: $white;
+
+			@include breakpoint(xs) {
+				padding-left: 40px;
+				text-align: justify;
+			}
+		
+			@include breakpoint(md) {
+				padding-left: 65px;
+				text-align: left;
+			}
+			
+			li {
+
+				@include breakpoint(xs) {
+					display: inline;
+					font-size: 15px;
+					line-height: 2em;
+
+					&:after {
+						content: " | ";
+					}
+				}
+			
+				@include breakpoint(md) {
+					white-space: nowrap;
+					display: block;
+					font-size: 12.9px;
+					line-height: 1.35em;
+
+					&:after {
+						content: "";
+					}
+
+				}
+
+			}
+
+			a, a:visited {
+				color:$white;
+			}
+		}
+	}
+}

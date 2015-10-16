@@ -1,0 +1,9 @@
+body.single-speaker {
+	.content {
+		@extend %module;
+	}
+
+	.sidebar {
+		@extend %module;	
+	}
+}

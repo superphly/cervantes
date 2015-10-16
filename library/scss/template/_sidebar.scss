@@ -1,0 +1,42 @@
+.sidebar {
+	@extend %module;
+
+	#sidebar-menu {
+		list-style-type: none;
+		margin:0;
+		padding:0;
+
+		li {
+			margin-bottom:5px;
+
+			&.current-menu-item {
+				font-weight: 700;
+			}
+
+			&:hover, &.active {
+				background: $bil-light-blue;
+
+				a {
+					color:$white;
+					text-decoration: none;
+				}
+			}
+
+			a {
+				padding: 10px;
+				font-size:17px;
+				display:block;
+			}
+
+		}
+
+		// &.affix-top{
+		// 	position: static;
+		// }
+
+		// &.affix {
+		// 	position: fixed;
+		// }
+	}
+}
+

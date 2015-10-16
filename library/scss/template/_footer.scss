@@ -1,0 +1,90 @@
+footer#footer {
+	min-height:500px;
+	background:#000;
+	padding-bottom:100px;
+	padding-top:50px;
+    border-top: 40px solid #2ea3f2;
+	color:$white;
+	background-repeat:no-repeat;
+	background-position-y:400px;
+	background-position-x:160%;
+
+	h2 {
+	    font-size: 80px;
+	    font-family: helvetica;
+	    font-weight: bold;
+	    color: $bil-blue;
+	    padding-left: 10px;
+	}
+
+	.tiny-cc-logo {
+		height:auto;
+		width: 20px;
+	}
+
+	// Genera Links
+	$ttime: .3s; // Change the transition time in one place
+	a {
+		-o-transition:$ttime;
+		-ms-transition:$ttime;
+		-moz-transition:$ttime;
+		-webkit-transition:$ttime;
+		transition:$ttime;
+	}
+	
+	a, 
+	a:visited {
+		color: $white;
+
+		&:hover {
+			color:$white;
+		}
+	}
+
+	// Top Level
+	
+
+	.nav>li>a {
+		font-size: 18px;
+
+		&:focus,
+		&:hover {
+			text-decoration: none;
+		    background-color: $bil-blue;
+		    border-radius: 5px;
+		}
+		
+	}
+	
+
+	// Secondary Level
+
+	ul.sub-menu {
+	    list-style: none;
+	    margin-left: 0;
+	    padding-left: 15px;
+
+	    li {
+
+	    	a {
+	    		color: $submenu-gray;
+	    		display: block;
+    		    padding-bottom: 10px;
+
+    		    font-size: 14px;
+
+    		    &:hover,
+    		    &:focus {
+    		    	text-decoration:none;
+    		    	color: $white;
+    		    }
+	    	}
+	    }
+	}
+
+	#colophon {
+		margin-top:2em;
+	}
+
+}
+

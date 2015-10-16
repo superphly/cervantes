@@ -1,0 +1,1 @@
+<?php wp_nav_menu( array('menu' => 'sidebar', 'menu_id' => 'sidebar-menu')); ?>

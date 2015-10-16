@@ -1,0 +1,37 @@
+body.single-event {
+	.hero.jumbotron {
+		@extend %hero-jumbotron;
+	}
+
+	#event-about {
+		@extend %module;
+
+		.organizers-list dl {
+			margin:0;
+			padding:0;
+
+			dd {
+				margin-bottom:.5em;
+			}
+		}
+	}
+
+	#event-talks {
+		background-color:$bil-blue;
+		color:$white;
+
+		@extend %module;
+	}
+
+	#event-sponsors {
+		@extend %module;
+	}
+
+	#event-cta {
+		background-color:$dark-gray;
+		color:$white;
+
+		@extend %module;
+	}
+
+}
