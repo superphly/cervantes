@@ -7,7 +7,7 @@
 				<?php $image = get_field('image', $module->ID); ?>
 					
 				<?php if( !empty($image) ): ?>
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
 				<?php endif; ?>
 			</div>
 			<div class="col-xs-12 col-md-6">		
