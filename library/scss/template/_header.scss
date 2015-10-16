@@ -15,16 +15,9 @@
 		overflow: hidden;
 		margin-bottom:0px;
 
-		#menu-primary-menu {
-			font-size:20px;
-
-			li {
-				padding:5px 20px;
-
-				a {
-					color: $secondary;
-				}
-			}
+		a {
+			color: $secondary;
+			font-size:25px;
 		}
 	}
 }
