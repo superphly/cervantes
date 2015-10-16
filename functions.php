@@ -26,7 +26,7 @@ require_once get_template_directory() . '/library/admin.php';
 require_once get_template_directory() . '/inc/thumbnail.php';
 
 // Comments
-require_once get_template_directory() . '/inc/comments.php';
+//require_once get_template_directory() . '/inc/comments.php';
 
 // Fonts
 require_once get_template_directory() . '/inc/fonts.php';
