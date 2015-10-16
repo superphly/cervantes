@@ -5,7 +5,7 @@
 			<div class="container">
 				
 				<div class="row">
-					<h2><?php get_bloginfo('sitename'); ?></h2>
+					<h2><?php echo get_bloginfo('sitename'); ?></h2>
 				</div>
 
 				<div class="row">
