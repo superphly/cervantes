@@ -5,7 +5,7 @@
 			<div class="container">
 				
 				<div class="row">
-					<h2>BIL</h2>
+					<h2><?php get_bloginfo('sitename'); ?></h2>
 				</div>
 
 				<div class="row">
@@ -82,7 +82,7 @@
 			<div class="container" id="colophon">
 				<div class="row">
 					<div class="col-xs-12">
-						<p><img src="/wp-content/uploads/2015/07/cc.large_.png" class="tiny-cc-logo" alt="creative commons icon"/> 2007-<?php echo date('Y');?> BIL Conference </p>
+						<?php echo date('Y');?> <?php get_bloginfo('sitename'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -94,7 +94,7 @@
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			ga('create', 'UA-37121239-1', 'auto');
+			ga('create', 'xxx', 'auto');
 			ga('send', 'pageview');
 		</script>
 	</body>
