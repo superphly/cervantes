@@ -45,7 +45,7 @@
 								'menu'              => __( 'The Main Menu', 'bonestheme' ),
 								'theme_location'    => 'main-nav',
 								'depth'             => 2
-							);
+							));
 						?>
 					</div>
 				</div>
