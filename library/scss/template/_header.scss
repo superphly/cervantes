@@ -4,25 +4,13 @@
 //
 //************************************************************************
 
-header#header {
-	nav#nav.navbar {
-		margin-bottom:0px;
-	}
-}
-
-
-
-//************************************************************************
-//
-// Navigation Styles
-//
-//************************************************************************
-
 #header #nav {
 	background-color: $bil-blue;
 	border: 0px;
     max-height: 50px;
     overflow: hidden;
+    margin-bottom:0px;
+
 
 	.navbar-brand {
 	    float: left;
