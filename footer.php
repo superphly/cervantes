@@ -5,7 +5,9 @@
             <div class="container">
                 
                 <div class="row">
-                    <h5><?php echo get_bloginfo('sitename'); ?></h5>
+                    <div class="col-xs-12">
+                        <h5><?php echo get_bloginfo('sitename'); ?></h5>
+                    </div>
                 </div>
 
                 <div class="row">
