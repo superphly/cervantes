@@ -40,14 +40,16 @@
 			<div id="nav" class="container">
 				<div class="row">
 					<div class="span-12 text-center">
-						<?php
-							wp_nav_menu( array(
-								'menu'              => __( 'The Main Menu', 'bonestheme' ),
-								'theme_location'    => 'main-nav',
-								'depth'             => 2,
-								'menu_class'		=> 'list-inline'
-							));
-						?>
+						<?php $mods = get_field('modules'); ?>
+
+						<?php if( $mods ) : ?>
+							<?php foreach( $mods as $mod): ?>
+								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
+									Yes
+								<?php } ?>
+							<?php endforeach; ?>
+						<?php endif; ?>
+
 					</div>
 				</div>
 			</nav>
