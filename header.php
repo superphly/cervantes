@@ -39,14 +39,14 @@
 		<header id="header" class="masthead">
 			<div id="nav" class="container">
 				<div class="row">
-					<div class="span-12 text-center">
+					<div class="span-12">
 						<?php
 							wp_nav_menu( array(
 								'menu'              => __( 'The Main Menu', 'bonestheme' ),
 								'theme_location'    => 'main-nav',
 								'depth'             => 2,
 								'container'         => 'div',
-								'container_class'   => '',
+								'container_class'   => 'text-center',
 								'container_id'      => 'primary-nav-menu',
 								'menu_class'        => 'nav navbar-nav',
 								'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
