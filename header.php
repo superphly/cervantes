@@ -39,7 +39,7 @@
 		<header id="header" class="masthead">
 			<div id="nav" class="container">
 				<div class="row">
-					<div class="span-12">
+					<div class="span-12 text-center">
 						<?php
 							wp_nav_menu( array(
 								'menu'              => __( 'The Main Menu', 'bonestheme' ),
