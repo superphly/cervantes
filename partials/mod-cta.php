@@ -4,6 +4,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 text-center">
+				<h1><?php the_field("header", $module->ID); ?></h1>
+				<hr>
 				<?php the_field("text", $module->ID); ?>
 			</div>
 		</div>
