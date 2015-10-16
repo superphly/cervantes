@@ -1,7 +1,7 @@
 <?php
 /*
-Author: Cody Marx Bailey & Michael Cummings
-URL: http://bilconference.com
+Author: Cody Marx Bailey
+URL: http://codymarxbailey.com
 */
 
 if ( ! isset( $content_width ) ) {
