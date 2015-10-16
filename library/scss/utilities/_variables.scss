@@ -32,9 +32,14 @@ $dark-gray:			#888888;
 $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
 
-$primary: 			#2ea3f2;
+$primary: 			#5a6b84;
 $primary-dark:		darken($primary, 30%);
 $primary-light:		lighten($primary, 10%);
+
+$secondary: 		#e7e7de;
+$secondary-dark:	darken($primary, 30%);
+$secondary-light:	lighten($primary, 10%);
+
 
 $link-color:        $primary;
 $link-hover:        $primary-dark;
