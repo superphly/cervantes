@@ -1,6 +1,6 @@
 <?php $module = get_module_by_slug("splash"); ?>
 
-<div id="module-splash">
+<div id="module-splash" class="module">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 text-center">
