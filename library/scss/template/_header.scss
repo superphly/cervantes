@@ -4,65 +4,64 @@
 //
 //************************************************************************
 
-#header #nav {
-	background-color: $primary;
-	border: 0px;
-    max-height: 50px;
-    overflow: hidden;
-    margin-bottom:0px;
+#header {
+	#nav {
+		background-color: $primary;
+		border: 0px;
+		max-height: 50px;
+		overflow: hidden;
+		margin-bottom:0px;
+
+		.navbar-brand {
+			float: left;
+			height: 50px;
+			padding: 15px 15px;
+			font-size: 24px;
+			line-height: 20px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
 
 
-	.navbar-brand {
-	    float: left;
-	    height: 50px;
-	    padding: 15px 15px;
-	    font-size: 24px;
-	    line-height: 20px;
-	    text-transform: uppercase;
-	    font-weight: 700;
-	}
-
-
-	.nav>li>a:focus, .nav>li>a:hover {
-		background-color: $primary-dark;
-		color: $white;
-	}
-
-	a, a:visited {
-		color: $light-gray;
-
-		&:hover {
+		.nav>li>a:focus, .nav>li>a:hover {
+			background-color: $primary-dark;
 			color: $white;
 		}
-	}
 
-	.dropdown-menu>li>a, .dropdown-menu>li>a:visited, .dropdown-menu>li>a:hover {
-		color:$black;
-	}
+		a, a:visited {
+			color: $light-gray;
 
-	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
-		background:$white;
-	}
+			&:hover {
+				color: $white;
+			}
+		}
 
-	.navbar-toggle {
-		background: $light-gray;
+		.dropdown-menu>li>a, .dropdown-menu>li>a:visited, .dropdown-menu>li>a:hover {
+			color:$black;
+		}
 
-		.icon-bar {
-			background-color: $primary;
+		.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+			background:$white;
+		}
+
+		.navbar-toggle {
+			background: $light-gray;
+
+			.icon-bar {
+				background-color: $primary;
+			}
+		}
+
+		#primary-nav-menu {
+			text-transform: uppercase;
+			font-weight: 700;
+
+			li.active {
+				background-color: $primary-dark;
+
+			}
 		}
 	}
-
-	#primary-nav-menu {
-		text-transform: uppercase;
-	    font-weight: 700;
-
-	    li.active {
-			background-color: $primary-dark;
-
-	    }
-	}
-
-
 }
 
 //************************************************************************
@@ -72,21 +71,21 @@
 //************************************************************************
 
 .soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+	font-family:si!important;
+	font-style:normal;
+	font-weight:400;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
 }
 
 .soc-twitter:before {
-    content:'a';
+	content:'a';
 }
 
 .soc-facebook:before {
-    content:'b';
+	content:'b';
 }
 
 .soc-github:before {
-    content:'Q';
+	content:'Q';
 }
