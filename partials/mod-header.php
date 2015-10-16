@@ -1,4 +1,4 @@
-<?php $module = get_module_by_slug("header"); ?>
+<?php $module = get_module_by_slug("splash"); ?>
 
 <div id="module-hero" style="background-image: url('<?php echo $image; ?>');" >
 	<div class="container">
