@@ -82,7 +82,7 @@
 			<div class="container" id="colophon">
 				<div class="row">
 					<div class="col-xs-12">
-						<?php echo date('Y');?> <?php get_bloginfo('sitename'); ?></p>
+						<?php echo date('Y');?> <?php echo get_bloginfo('sitename'); ?></p>
 					</div>
 				</div>
 			</div>
