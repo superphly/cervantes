@@ -37,7 +37,7 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 		<header id="header" class="masthead">
-			<div class="container">
+			<div id="nav" class="container">
 				<div class="row">
 					<div class="span-12">
 						<?php
