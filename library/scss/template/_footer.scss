@@ -4,7 +4,7 @@ footer#footer {
 	padding-bottom:100px;
 	padding-top:50px;
     border-top: 40px solid #2ea3f2;
-	color:$white;
+	color: $white;
 	background-repeat:no-repeat;
 	background-position-y:400px;
 	background-position-x:160%;
@@ -13,7 +13,7 @@ footer#footer {
 	    font-size: 80px;
 	    font-family: helvetica;
 	    font-weight: bold;
-	    color: $bil-blue;
+	    color: $primary;
 	    padding-left: 10px;
 	}
 
@@ -50,7 +50,7 @@ footer#footer {
 		&:focus,
 		&:hover {
 			text-decoration: none;
-		    background-color: $bil-blue;
+		    background-color: $primary;
 		    border-radius: 5px;
 		}
 		
@@ -67,7 +67,7 @@ footer#footer {
 	    li {
 
 	    	a {
-	    		color: $submenu-gray;
+	    		color: $primary;
 	    		display: block;
     		    padding-bottom: 10px;
 

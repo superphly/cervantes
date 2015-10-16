@@ -31,27 +31,16 @@ $dark-gray:			#888888;
 
 $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
-$submenu-gray:		#bcbec0;
 
-$tan:               #eceee5;
+$primary: 			#2ea3f2;
+$primary-dark:		darken($primary, 30%);
+$primary-light:		lighten($primary, 10%);
 
-$green:             #7dd667;
-
-$bones-pink:        #f01d4f;
-$blue:              #2980b9;
-$bil-blue: 			#2ea3f2;
-$bil-dark-blue:		darken($bil-blue, 30%);
-$bil-light-blue:	lighten($bil-blue, 9%);
-
-$link-color:        $bil-blue;
-$link-hover:        $bil-dark-blue;
+$link-color:        $primary;
+$link-hover:        $primary-dark;
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
-
-
-
-
 
 /*
 Here's a great tutorial on how to

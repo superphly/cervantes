@@ -1,9 +1,0 @@
-body.post-type-archive-event {
-	.hero.jumbotron {
-		@extend %hero-jumbotron;
-	}
-
-	#events-list {
-		@extend %module;
-	}
-}

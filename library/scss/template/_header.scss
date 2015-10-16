@@ -5,7 +5,7 @@
 //************************************************************************
 
 #header #nav {
-	background-color: $bil-blue;
+	background-color: $primary;
 	border: 0px;
     max-height: 50px;
     overflow: hidden;
@@ -24,7 +24,7 @@
 
 
 	.nav>li>a:focus, .nav>li>a:hover {
-		background-color: $bil-dark-blue;
+		background-color: $primary-dark;
 		color: $white;
 	}
 
@@ -48,7 +48,7 @@
 		background: $light-gray;
 
 		.icon-bar {
-			background-color: $bil-blue;
+			background-color: $primary;
 		}
 	}
 
@@ -57,7 +57,7 @@
 	    font-weight: 700;
 
 	    li.active {
-			background-color: $bil-dark-blue;
+			background-color: $primary-dark;
 
 	    }
 	}
