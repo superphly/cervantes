@@ -44,13 +44,7 @@
 							wp_nav_menu( array(
 								'menu'              => __( 'The Main Menu', 'bonestheme' ),
 								'theme_location'    => 'main-nav',
-								'depth'             => 2,
-								'container'         => 'div',
-								'container_class'   => 'text-center',
-								'container_id'      => 'primary-nav-menu',
-								'menu_class'        => 'nav navbar-nav',
-								'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-								'walker'            => new wp_bootstrap_navwalker())
+								'depth'             => 2
 							);
 						?>
 					</div>
