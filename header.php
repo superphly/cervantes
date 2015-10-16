@@ -46,8 +46,6 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-
-						<a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 					</div>
 					<div class="collapse navbar-collapse">
 						<?php
@@ -63,12 +61,6 @@
 								'walker'            => new wp_bootstrap_navwalker())
 							);
 						?>
-
-						<ul class="soc nav navbar-nav navbar-right visible-md visible-lg visible-xl">
-							<li><a class="soc-twitter" href="#" target="_blank"></a></li>
-							<li><a class="soc-facebook" href="#" target="_blank"></a></li>
-							<li><a class="soc-github" href="#" target="_blank"></a></li>
-						</ul>
 					</div>
 				</div>
 			</nav>
