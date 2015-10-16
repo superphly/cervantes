@@ -45,7 +45,7 @@
 						<?php if( $mods ) : ?>
 							<?php foreach( $mods as $mod): ?>
 								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
-									Yes
+									<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 								<?php } ?>
 							<?php endforeach; ?>
 						<?php endif; ?>
