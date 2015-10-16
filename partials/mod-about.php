@@ -4,7 +4,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
-				image
+				<?php $image = get_field('image', $module->ID); ?>
+					
+				<?php if( !empty($image) ): ?>
+					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+				<?php endif; ?>
 			</div>
 			<div class="col-xs-12 col-md-6">		
 				<?php the_field("text", $module->ID); ?>
