@@ -59,7 +59,7 @@ require_once get_template_directory() . '/inc/menus.php';
 //require_once get_template_directory() . '/inc/dashboard.php';
 
 // Admin CPT Lists
-require_once get_template_directory() . '/inc/admin-cpt-list.php';
+//require_once get_template_directory() . '/inc/admin-cpt-list.php';
 
 // Values for Gravity Forms Dynamic
 require_once get_template_directory() . '/inc/gravity-forms-dyn-values.php';
