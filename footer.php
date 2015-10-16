@@ -68,12 +68,6 @@
 					<div id="footer-right" class="col-xs-12 col-sm-6">
 						<div class="row">
 							<div class="col-xs-12">
-								<a href="https://en.wikipedia.org/wiki/BIL_Conference" class="image">
-									<img alt="Wikipedia" src="<?php echo get_stylesheet_directory_uri() ?>/library/images/logo-wikipedia.png" class="img-responsive">
-								</a> 
-								<a href="http://creativecommons.org/" rel="nofollow">
-									<img alt="Creative Commons" src="<?php echo get_stylesheet_directory_uri() ?>/library/images/logo-creative-commons.png" class="img-responsive">
-								</a>
 							</div>
 						</div>
 					</div>
