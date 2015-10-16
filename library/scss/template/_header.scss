@@ -13,52 +13,11 @@
 		overflow: hidden;
 		margin-bottom:0px;
 
-		.navbar-brand {
-			float: left;
-			height: 50px;
-			padding: 15px 15px;
-			font-size: 24px;
-			line-height: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-		}
+		#menu-primary-menu {
+			font-size:40px;
 
-		.nav>li>a:focus, .nav>li>a:hover {
-			background-color: $primary-dark;
-			color: $white;
-		}
-
-		a, a:visited {
-			color: $light-gray;
-
-			&:hover {
-				color: $white;
-			}
-		}
-
-		.dropdown-menu>li>a, .dropdown-menu>li>a:visited, .dropdown-menu>li>a:hover {
-			color:$black;
-		}
-
-		.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
-			background:$white;
-		}
-
-		.navbar-toggle {
-			background: $light-gray;
-
-			.icon-bar {
-				background-color: $primary;
-			}
-		}
-
-		#primary-nav-menu {
-			text-transform: uppercase;
-			font-weight: 700;
-
-			li.active {
-				background-color: $primary-dark;
-
+			li {
+				padding:5px 20px;
 			}
 		}
 	}
