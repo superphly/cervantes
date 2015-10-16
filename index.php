@@ -1,3 +1,3 @@
 <?php get_header(); ?>
-HOMEPAGE WHOOOOSHAAAA
+index.php
 <?php get_footer(); ?>
