@@ -11,7 +11,7 @@
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive img-circle" />
 				<?php endif; ?>
 			</div>
-			<div class="col-xs-12 col-md-4">
+			<div class="col-xs-12 col-md-4 col-md-offset-1">
 				<h2><?php the_field("header", $module->ID); ?></h2>
 				<?php the_field("text", $module->ID); ?>
 			</div>
