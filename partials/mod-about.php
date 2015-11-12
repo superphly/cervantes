@@ -10,7 +10,7 @@
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
 				<?php endif; ?>
 			</div>
-			<div class="col-xs-12 col-md-3">		
+			<div class="col-xs-12 col-md-5">		
 				<?php the_field("text", $module->ID); ?>
 			</div>
 		</div>
