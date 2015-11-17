@@ -41,17 +41,13 @@
 				<div class="row">
 					<?php $mods = get_field('menu', 22); ?>
 
-					<?php var_dump($mods); ?>
-
 					<?php if( $mods ) : ?>
 						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
 						<?php $mods2 = array_slice($mods, floor(count($mods)/2)); ?>
 
 						<div class="col-xs-12 col-md-4 text-center">
 							<?php foreach( $mods1 as $mod): ?>
-								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
-									<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
-								<?php } ?>
+								<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 							<?php endforeach; ?>
 						</div>
 						<div class="col-xs-12 col-md-4 text-center">
@@ -60,9 +56,7 @@
 
 						<div class="col-xs-12 col-md-4 text-center">
 							<?php foreach( $mods2 as $mod): ?>
-								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
-									<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
-								<?php } ?>
+								<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 							<?php endforeach; ?>
 						</div>
 
