@@ -21,28 +21,13 @@
 			<div id="nav" class="container">
 				<div class="row">
 					<?php $mods = get_field('menu', 22); ?>
-
 					<?php if( $mods ) : ?>
-						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
-						<?php $mods2 = array_slice($mods, floor(count($mods)/2)); ?>
-
-						<div class="col-xs-12 col-md-5 text-center">
-							<?php foreach( $mods1 as $mod): ?>
+						<div class="col-xs-12 text-center">
+							<?php foreach( $mods as $mod): ?>
 								<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 							<?php endforeach; ?>
 						</div>
-						<div class="col-xs-12 col-md-2 text-center">
-							<h1><?php bloginfo('name') ?></h1>
-						</div>
-
-						<div class="col-xs-12 col-md-5 text-center">
-							<?php foreach( $mods2 as $mod): ?>
-								<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
-							<?php endforeach; ?>
-						</div>
-
 					<?php endif; ?>
-
 				</div>
 			</nav>
 		</header>
