@@ -43,7 +43,7 @@
 
 					<?php if( $mods ) : ?>
 						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
-						<?php $mods2 = array_slice($input, floor(count($mods)/2)); ?>
+						<?php $mods2 = array_slice($mods, floor(count($mods)/2)); ?>
 
 						<div class="col-xs-12 col-md-4 text-center">
 							<?php foreach( $mods1 as $mod): ?>
