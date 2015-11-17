@@ -4,7 +4,12 @@
 
 	.gform_wrapper {
 		.gform_body {
-			
+			float:left;
+			width:70%;			
+		}
+		.gform_footer {
+			float:right;
+			width: 25%;
 		}
 	}
 }
