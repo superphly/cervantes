@@ -2,7 +2,7 @@
 
 <div id="module-contact" class="module">
 	<div class="container">
-		<div class="row">
+		<div class="row boxy">
 			<div class="col-xs-12 text-center">
 				<h2>Contact</h2>
 			</div>
