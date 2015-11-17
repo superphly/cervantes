@@ -5,7 +5,11 @@
 	.gform_wrapper {
 		.gform_body {
 			float:left;
-			width:70%;			
+			width:70%;
+
+			label {
+				display:none;
+			}			
 		}
 		.gform_footer {
 			float:right;
