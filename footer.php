@@ -5,7 +5,7 @@
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 text-center">
                         <h5><?php echo get_bloginfo('sitename'); ?></h5>
                     </div>
                 </div>
@@ -72,13 +72,6 @@
                             <div class="col-xs-12">
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" id="colophon">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <?php echo date('Y');?> <?php echo get_bloginfo('sitename'); ?></p>
                     </div>
                 </div>
             </div>
