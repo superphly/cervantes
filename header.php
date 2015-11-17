@@ -39,7 +39,7 @@
 		<header id="header" class="masthead">
 			<div id="nav" class="container">
 				<div class="row">
-					<?php $mods = get_field('menu', get_option('page_on_front')); ?>
+					<?php $mods = get_field('menu', 22); ?>
 
 					<?php if( $mods ) : ?>
 						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
