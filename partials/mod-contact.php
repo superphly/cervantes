@@ -6,10 +6,10 @@
 			<div class="col-xs-12 text-center">
 				<h2>Contact</h2>
 			</div>
-			<div class="col-xs-12 col-md-4 col-md-offset-3">
+			<div class="col-xs-12 col-md-4 col-md-offset-2">
 				<?php the_field("left_col", $module->ID); ?>
 			</div>
-			<div class="col-xs-12 col-md-2 text-right social-links">
+			<div class="col-xs-12 col-md-3 text-right col-md-offset-1 social-links">
 				<?php the_field("right_col", $module->ID); ?>
 			</div>
 		</div>
