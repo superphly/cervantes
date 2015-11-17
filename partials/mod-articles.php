@@ -1,6 +1,6 @@
 <?php $module = get_module_by_slug("articles"); ?>
 
-<div id="module-contact" class="module">
+<div id="module-articles" class="module">
 	<div class="container">
 		<div class="row">
 
