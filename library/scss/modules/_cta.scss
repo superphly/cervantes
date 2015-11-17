@@ -5,6 +5,9 @@
 	input {
 		font-size:20px;
 		padding:5px;
+		color:#000;
+		background:#fff;
+		border:none;
 	}
 
 	.gform_wrapper {
@@ -14,7 +17,7 @@
 
 			label {
 				display:none;
-			}			
+			}
 		}
 		.gform_footer {
 			float:right;
