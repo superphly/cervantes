@@ -2,6 +2,11 @@
 	background-color: $primary;
 	color: $secondary;
 
+	input {
+		height:40px;
+		font-size:30px;
+	}
+
 	.gform_wrapper {
 		.gform_body {
 			float:left;
