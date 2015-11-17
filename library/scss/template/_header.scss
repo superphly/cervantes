@@ -10,8 +10,8 @@
 	#nav {
 		border: 0px;
 		height: 66px;
-		min-height: 50px;
-		max-height: 50px;
+		min-height: 66px;
+		max-height: 66px;
 		overflow: hidden;
 		margin-bottom:0px;
 
@@ -19,6 +19,7 @@
 			color: $secondary;
 			font-size:25px;
 			padding:5px 20px;
+			line-height:66px;
 		}
 	}
 }
