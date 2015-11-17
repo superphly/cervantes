@@ -41,6 +41,8 @@
 				<div class="row">
 					<?php $mods = get_field('menu', 22); ?>
 
+					<?php var_dump($mods); ?>
+
 					<?php if( $mods ) : ?>
 						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
 						<?php $mods2 = array_slice($mods, floor(count($mods)/2)); ?>
