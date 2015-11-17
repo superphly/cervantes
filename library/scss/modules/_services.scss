@@ -1,4 +1,7 @@
 #module-services {
 	background-color: $primary;
 	color: $secondary;
+	.left, .right {
+		font-size:1.5em;
+	}
 }
