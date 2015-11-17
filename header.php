@@ -39,18 +39,33 @@
 		<header id="header" class="masthead">
 			<div id="nav" class="container">
 				<div class="row">
-					<div class="span-12 text-center">
-						<?php $mods = get_field('modules'); ?>
+					<?php $mods = get_field('modules'); ?>
 
-						<?php if( $mods ) : ?>
-							<?php foreach( $mods as $mod): ?>
+					<?php if( $mods ) : ?>
+						<?php $mods1 = array_slice($mods, 0, floor(count($mods)/2)); ?>
+						<?php $mods2 = array_slice($input, floor(count($mods)/2)); ?>
+
+						<div class="col-xs-12 col-md-4 text-center">
+							<?php foreach( $mods1 as $mod): ?>
 								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
 									<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 								<?php } ?>
 							<?php endforeach; ?>
-						<?php endif; ?>
+						</div>
+						<div class="col-xs-12 col-md-4 text-center">
+							<h1><?php bloginfo('name') ?></h1>
+						</div>
 
-					</div>
+						<div class="col-xs-12 col-md-4 text-center">
+							<?php foreach( $mods2 as $mod): ?>
+								<?php if (get_field('show_in_menu', $mod->ID) == 1) { ?>
+									<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
+								<?php } ?>
+							<?php endforeach; ?>
+						</div>
+
+					<?php endif; ?>
+
 				</div>
 			</nav>
 		</header>
