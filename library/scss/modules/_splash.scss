@@ -1,6 +1,15 @@
 #module-splash {
-	background: url('../images/background-logs.jpg') 50% 0% no-repeat transparent;
-	background-size: cover;
+	&:before {
+		content: "";
+  		position: fixed;
+  		left: 0;
+  		right: 0;
+  		z-index: -1;
+		background: url('../images/background-logs.jpg') 50% 0% no-repeat transparent;
+		background-size: cover;
+		display:block;
+	}
+
 
 	h1 {
 		color: $secondary;
