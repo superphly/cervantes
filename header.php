@@ -24,7 +24,7 @@
 					<?php if( $mods ) : ?>
 						<div class="col-xs-12 text-center">
 							<?php foreach( $mods as $mod): ?>
-								<span class="anchor"><a href="#<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
+								<span class="anchor"><a href="#module-<?php echo $mod->post_name; ?>"><?php echo $mod->post_title; ?></a></span>
 							<?php endforeach; ?>
 						</div>
 					<?php endif; ?>
