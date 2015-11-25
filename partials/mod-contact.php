@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row boxy">
 			<div class="col-xs-12 text-center">
-				<h2>Contact</h2>
+				<h1>Contact</h1>
 			</div>
 			<div class="col-xs-12 col-md-4 col-md-offset-2">
 				<?php the_field("left_col", $module->ID); ?>
