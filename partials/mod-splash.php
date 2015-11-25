@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-xs-12 text-center">
 				<h1><?php echo get_bloginfo('sitename'); ?></h1>
-				<h2><?php bloginfo('description');?></h2>
+				<h2><em><?php bloginfo('description');?></em></h2>
 			</div>
 			<div class="col-xs-12 col-md-8 col-md-push-2 text-center">
 				<div class="vid-container">
