@@ -3,7 +3,7 @@
 <div id="module-splash" class="module">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-md-12 col-md-push-2 text-center">
+			<div class="col-xs-12 col-md-8 col-md-push-2 text-center">
 				<h1><?php echo get_bloginfo('sitename'); ?></h1>
 				<h3><?php bloginfo('description');?></h3>
 				<div class="vid-container">
